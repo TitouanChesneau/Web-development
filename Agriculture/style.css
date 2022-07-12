@@ -1,0 +1,228 @@
+body {
+    background-color: black;
+}
+
+h8 {
+    text-align: center;
+    color: seagreen;
+}
+
+#head
+{
+    margin: 0px;
+    padding: 20px;
+    background: rgb(36, 36, 36);
+}
+
+#first_box
+{
+    margin: -8px;
+    padding: 400px;
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+
+@font-face {
+    font-family: prototype;
+    src: url(Prototype.ttf);
+}
+
+#link
+{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    color: rgb(233, 128, 7);
+}
+
+#second_box
+{
+    margin: -8px;
+    padding: 100px;
+    background: white;
+}
+
+#form_box
+{
+    margin-top: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+#why
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    text-align: center;
+    font-size: 80px;
+}
+
+#aff_box
+{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-top: 25px;
+    padding-bottom: 300px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.main-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    background: url(logo_entier.png);
+    background-size: cover;
+}
+
+#logo-img
+{
+    width: 120px;
+    height: 120px;
+    margin-top: -180px;
+    float: right;
+    margin-right: 50px;
+    background: url(logo_entier.png);
+    background-size: cover;
+}
+
+#form-box
+{
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(24, 24, 24);
+}
+
+#form-box-smol
+{
+    margin-top: 25px;
+    padding-bottom: 20px;
+    background-color: rgb(24, 24, 24);
+}
+
+.aff_sign_up
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80px;
+    background-color: rgb(36, 36, 36);
+}
+
+#smol
+{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(24, 24, 24);
+}
+
+#list_aff
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#form
+{
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(24, 24, 24);
+}
+
+#form-text
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#no_dot
+{
+    list-style-type: none;
+}
+
+#aff_box ul li
+{
+    list-style-type: none;
+}
+
+#valid
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    font-size: 40px;
+    width: 20%;
+    height: 60px;
+    margin-top: 50px;
+    color: rgb(233, 128, 7);
+    background-color: rgb(24, 24, 24);
+    border: 0px;
+}
+
+.input-text
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    font-size: 25px;
+    width: 35%;
+    height: 30px;
+}
+
+.links
+{
+    display: inline;
+}
+
+.header-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(logo.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 0.5rem;
+    color: white;
+    text-align: left;
+}
+
+h5
+{
+    margin: 15px;
+    padding: 0px;
+}
+
+#map
+{
+    margin-left: 17%;
+    height: 800px; /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    width: 1200px;
+}
+
+h9 {
+    color: white;
+    text-align: right;
+}

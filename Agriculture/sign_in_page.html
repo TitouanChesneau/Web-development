@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <div id="head">
+    <div class="header-img"></div>    
+    <meta charset="UTF-8">
+    <title>Proxi'miam</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="site_map.js"></script>
+</head>
+<body>
+    <ul>
+        <li class="links"><a id = link href="site.html">Accueil</a></li>
+        <li class="links"><a id = link href="sign_in_page.html">Enregistrez votre Commerce</a></li>
+        <li class="links"><a id = link href="affiliate_form.html">Devenez Partenaire</a></li>
+        <li class="links"><a id = link href="about_us.html">À propos de nous</a></li>
+    </ul>
+    </div>
+    <div id="aff_box">
+        <h1 id="why">Enregistrez votre Business local !</h1>
+        <div id="logo-img"></div>
+        <div id="form-box">
+            <ul>
+                <li class="no_dot"><h2 id="list_aff">Enregistrez vous dès maintenant pour que vos futurs clients puissent vous decouvrir</h2></li>
+            </ul>
+        </div>
+        <div id="form">
+            <form id="form-text" action="site.html" method="post">
+                <label for="name">Nom Prénom du dirigeant:</label>
+                <h5><input class="input-text" type="text" id="name" name="nom_dirigeant"></h5>
+
+                <label for="name">Immatriculation de l'entreprise:</label>
+                <h5><input class="input-text" type="text" id="name" name="immatriculation_entreprise"></h5>
+
+                <label for="name">Adresse e-mail:</label>
+                <h5><input class="input-text" type="email" id="name" name="mail"></h5>
+
+                <label for="name">Nom de l'entreprise:</label>
+                <h5><input class="input-text" type="text" id="name" name="nom_entreprise"></h5>
+
+                <label for="name">Adresse complete:</label>
+                <h5><input class="input-text" type="text" id="name" name="adresse_complete"></h5>
+
+                <label for="avatar">Certifications*:</label>
+                <h5><input type="file" id="Bio" name="Bio"></h5>
+                <h5><input type="file" id="Local" name="Local"></h5>
+
+                <label for="produits">Produits proposés:</label><br>
+                <select name="input-text" class="input-text">
+                    <option value="">Clique pour defiler</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Légumes">Légumes</option>
+                    <option value="Viandes">Viandes</option>
+                    <option value="Produits laitiers">Produits laitiers</option>
+                </select><br>
+                <input id="valid" type="button" value="Valider" onclick="get_donner_sign_in_page(nom_dirigeant.value, immatriculation_entreprise.value, mail.value, nom_entreprise.value, adresse_complete.value)"/>
+            </form>
+        </div>
+        <h9 id="list_aff">* Le premier fichier est obligatoire et correspond au certificat de vérification de production locale.<br></h9>
+        <h9 id="list_aff">Le deuxième fichier est optionnel et correspond à un certificat de production d'appellation.</h9>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <div id="head">
+    <div class="header-img"></div>    
+    <meta charset="UTF-8">
+    <title>Proxi'miam</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="site_map.js"></script>
+</head>
+<body>
+    <ul>
+        <li class="links"><a id = link href="site.html">Accueil</a></li>
+        <li class="links"><a id = link href="sign_in_page.html">Enregistrez votre Commerce</a></li>
+        <li class="links"><a id = link href="affiliate_form.html">Devenez Partenaire</a></li>
+        <li class="links"><a id = link href="about_us.html">À propos de nous</a></li>
+    </ul>
+    </div>
+    <div id="aff_box">
+        <h1 id="why">Pourquoi devenir Partenaire ?</h1>
+        <div id="logo-img"></div>
+        <div id="form-box">
+            <ul>
+                <li class="no_dot"><h2 id="list_aff">Beneficiez d'une visibilité mise en avant aupres de vos futurs clients</h2></li>
+                <li class="no-dot"><h3 id="list_aff">Des avantages uniques comme des pointeurs GPS personalisables</h3></li>
+                <li class="no-dot"><h4 id="list_aff">Seulement 20.00€ TTC par mois</h4></li>
+                <li class="no-dot"><h4 id="list_aff">Si votre production est sous une certaine appéllation, vous êtes peut-être éligible à une promotion</h4></li>
+                <li class="links"><a id = link href="éligibilité.html">En savoir plus sur l'éligibilité</a></li>
+            </ul>
+        <div class = aff_sign_up>Interessé ?</div>
+        <div id="form-box-smol">
+        <div class="aff_sign_up" id="smol">Remplissez le formulaire ci-dessous pour souscrire a notre programme partenaire !</div>
+        </div>
+    </div>
+    <div id="form">
+        <form id="form-text" action="site.html" method="post">
+            <label for="name">Nom de l'entreprise:</label>
+            <h5><input class="input-text" type="text" id="name" name="name_entreprise"></h5>
+            <li class="links"><a id = link href="https://paypal.me/pgardah?country.x=FR&locale.x=fr_FR">Procéder au paiement</a></li>
+            <input type="button" value="Valider" onclick="get_donner_affiliate_form(name_entreprise.value)"/>
+        </form>
+    </div>
+</body>
+</html>

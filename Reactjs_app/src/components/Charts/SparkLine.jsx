@@ -6,7 +6,7 @@ class SparkLine extends React.PureComponent {
     const { id, height, width, color, data, type, currentColor } = this.props;
 
     return (
-      <SparklineComponent
+      <SparklineComponent className="dark:text-gray-200"
         id={id}
         height={height}
         width={width}
@@ -16,7 +16,7 @@ class SparkLine extends React.PureComponent {
         border={{ color: currentColor, width: 2 }}
         tooltipSettings={{
           visible: true,
-          format: '${x} : data ${yval}',
+          format: "${x} : data ${yval}",
           trackLineSettings: {
             visible: true,
           },

@@ -833,6 +833,10 @@ export const themeColors = [
     color: '#7352FF',
   },
   {
+    name: 'green-theme',
+    color: '#2AB32A',
+  },
+  {
     name: 'red-theme',
     color: '#FF5C8E',
   },
@@ -841,8 +845,8 @@ export const themeColors = [
     color: '#1E4DB7',
   },
   {
-    color: '#FB9678',
     name: 'orange-theme',
+    color: '#FF8C00',
   },
 ];
 

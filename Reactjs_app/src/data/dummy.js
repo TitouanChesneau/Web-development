@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
+import { IoMdPaper } from 'react-icons/io';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
@@ -555,6 +556,15 @@ export const links = [
         icon: <AiOutlineBarChart />,
       },
     ],
+  },
+  {
+    title: 'Tools',
+    links: [
+      {
+        name: 'PdfViewer',
+        icon: <IoMdPaper />
+      }
+    ]
   },
 ];
 
@@ -2444,12 +2454,12 @@ export const ordersData = [
     OrderID: 345653,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
-    OrderItems: 'Butter Scotch',
+    OrderItems: 'Small Windmil',
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
-      product5,
+      product8,
   },
   {
     OrderID: 390457,

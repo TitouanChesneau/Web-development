@@ -7,7 +7,7 @@ const LineChart = () => {
   const { currentMode } = useStateContext();  
 
   return (
-    <ChartComponent id="line-chart" height="420px" primaryXAxis={LinePrimaryXAxis} primaryYAxis={LinePrimaryYAxis} chartArea={{ border: { width: 0 }}} tooltip={{ enable: true }} background={ currentMode === 'Dark' ? '#33373E' : '#fff'} legendSettings={{ background: (currentMode === 'Dark') ? '#011c20' : '#fff' }}>
+    <ChartComponent id="line-chart" height="420px" primaryXAxis={LinePrimaryXAxis} primaryYAxis={LinePrimaryYAxis} chartArea={{ border: { width: 0 }}} tooltip={{ enable: true }} background={ currentMode === 'Dark' ? '#33373E' : '#fff'} legendSettings={{ background: (currentMode === 'Dark') ? '#0f6d72' : '#fff' }}>
       <Inject services={[LineSeries, DateTime, Legend, Tooltip]} />
       <SeriesCollectionDirective>
         {lineCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}

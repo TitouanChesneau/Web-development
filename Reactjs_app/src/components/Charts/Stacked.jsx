@@ -7,7 +7,7 @@ const Stacked = ({ width, height }) => {
   const { currentMode } = useStateContext();
 
   return (
-    <ChartComponent width={width} height={height} id="charts" primaryXAxis={stackedPrimaryXAxis} primaryYAxis={stackedPrimaryYAxis} chartArea={{ border: { width: 0 }}} tooltip={{ enable: true }} legendSettings={{ background: (currentMode === 'Dark') ? '#011c20' : '#fff' }} background={ currentMode === 'Dark' ? '#33373E' : '#fff'} style={{ color:  (currentMode === 'Dark') ? '#e5e7ef' : 'black'}}>
+    <ChartComponent width={width} height={height} id="charts" primaryXAxis={stackedPrimaryXAxis} primaryYAxis={stackedPrimaryYAxis} chartArea={{ border: { width: 0 }}} tooltip={{ enable: true }} legendSettings={{ background: (currentMode === 'Dark') ? '#0f6d72' : '#fff' }} background={ currentMode === 'Dark' ? '#33373E' : '#fff'} style={{ color:  (currentMode === 'Dark') ? '#e5e7ef' : 'black'}}>
       <Inject services={[Legend, Category, StackingColumnSeries, Tooltip]} />
       <SeriesCollectionDirective>
         {stackedCustomSeries.map((item, index) => <SeriesDirective key={index} { ...item} />)}
